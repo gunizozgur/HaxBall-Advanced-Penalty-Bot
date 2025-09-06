@@ -8,8 +8,8 @@ var roomName = "Advanced Penalty Bot";
 var playerName = "";
 var noPlayer = true;
 var public = true;
-var maxPlayers = 8; //Varies between 2 and 30. Visit the following link to learn how to make a room for 0 or 1 person: https://github.com/thenorthstar/MineSweeperBot-HaxBall/issues/1
-var token = ""; //haxball/rs/api/getheadlesstoken
+var maxPlayers = 10; //Varies between 2 and 30. Visit the following link to learn how to make a room for 0 or 1 person: https://github.com/thenorthstar/MineSweeperBot-HaxBall/issues/1
+var token = "thr1.AAAAAGi8TyUFv-md9kaKLA.XLfNLZnjpEs"; //haxball/rs/api/getheadlesstoken
 var code = "gb"; //2 or 3 characters code of country.
 var lat = 51.487397; //Varies between -90 and 90.
 var lon = -0.0304748; //Varies between -180 and 180.
@@ -1970,3 +1970,4 @@ room.onTeamVictory = _roomObject.onTeamVictory;
 _roomObject.loadMap(Map, 14, 14);
 
 //betaTestAnnouncement = setInterval(() => { _roomObject.betaTestAnnouncement() }, betaTestAnnouncementInterval);
+
